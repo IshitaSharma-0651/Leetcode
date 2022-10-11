@@ -5,7 +5,7 @@ class Solution {
         if(root.val == x || root.val == y) return false;
         
         
-        Deque<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         
         boolean xFound = false;
